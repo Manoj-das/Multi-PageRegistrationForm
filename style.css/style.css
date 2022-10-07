@@ -1,0 +1,28 @@
+ 
+ .A4 {
+   background: white;
+   width: 21cm;
+   height: 29.7cm;
+   display: block;
+   margin: 0 auto;
+   padding: 10px 25px;
+   margin-bottom: 0.5cm;
+   box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+@media print {
+.page-break { display: block; page-break-before: always; }
+size: A4 portrait;
+} 
+
+@media print {
+ .noprint {display:none;}
+ .enable-print { display: block; }
+}
+  .required:after {
+    content:" *";
+    color: red;
+
+
+  }
+
