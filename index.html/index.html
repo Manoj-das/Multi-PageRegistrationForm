@@ -1,46 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <div class="split left">
-  <div class="centered">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Education website</title>
   </head>
-  
-      <style>
- 
-    body {
- <page size="A4" layout="landscape"></page>
-
-        height: 842px;
-        width: 595px;
-        /* to centre page on screen*/
-        margin-left: auto;
-        margin-right: auto;
-    }
+  <body>
+  <style>
+    body   {
+  height: 200px;
+  width: 100%;
+  background-color: powderblue;
+}
  
     </style>
-    
- 
 
+ <!-- fieldsets -->
+  <fieldset>
+ <form class = "form-horizontal" role = "form">
 <form action="/url" method="GET">
    <label class="required">Name</label>
 <span style="color:#ff0000">*</span><br>
   <input type="text" name="name" placeholder="First"  maxlength="  22" size="    22">
         <input type="text" name="name" placeholder="Last" maxlength="  22" size="    22">
 
-    </form>              
-       <br>      
-            
+    </form>     
+                
+                  
 <form action= "/url" method="GET">
   <label class="required">Date of Birth</label>
 <span style="color:#ff0000">*</span><br>
   <input type="date"  name="name" placeholder=" " maxlength=" 50" size=" 50">
   
-</form>          
-       <br>     
+</form>
                         
   
 
@@ -50,8 +44,7 @@
   <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
    
 
-    </form>             
-       <br>      
+    </form>    
                    
                           <form action="/url" method="GET">
    <label class="required">Father's Name</label>
@@ -59,8 +52,7 @@
   <input type="text" name="name" placeholder=" First" maxlength="  22" size="    22">
      <input type="text" name="name" placeholder=" Last" maxlength="  22" size="    22">
 
-    </form>            
-       <br>       
+    </form>    
                    
 
                          <form action="/url" method="GET">
@@ -69,8 +61,7 @@
   <input type="text" name="name" placeholder=" First"  maxlength="  22" size="    22">
      <input type="text" name="name" placeholder=" Last"  maxlength="  22" size="    22">
 
-    </form>           
-       <br>        
+    </form>    
                 
                         <label class="required">Gender</label>
 
@@ -80,28 +71,30 @@
 
 <input type="radio" name="gender" value="female"> F<br>
                  
-            
+ 
          <form action="/url" method="GET">
                         <label class="required">Nationality</label>
 <span style="color:#ff0000">*</span><br>
  <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
-    </form>            
-       <br>     
+    </form>  
                         <p class="border-b-2 text-white shown_number"> </p>
 
+                    
+ 
 <form action="/url" method="GET">
                         <label class="required">Home Address</label>
 <span style="color:#ff0000">*</span><br>
 <input type="text" place="Street Address" placeholder="Street Address" maxlength=" 50" size=" 50"><br>
 <input type="text" place="City" placeholder="City" ><input type="text" place="Country" placeholder="Country" >
 <select class="selectpicker countrypicker"></select><br>
-                      
+                        
+
+               
 <form action="/url" method="GET">
                          <label class="required">Telephone-Home</label><br>
-                       <input type="text" place="digit" placeholder=" ### ### ####"maxlength=" 50" size=" 50">
-                     
-       <br>     
-  </form>
+                       <input type="text" place="digit" placeholder=" ### ### ####"maxlength=" 50" size=" 50"><br>
+ 
+           
  
 <form action="/url" method="GET">
                    <label class="required">Telephone-Mobile</label>
@@ -109,18 +102,144 @@
 <input type="text" place="digit" placeholder=" ### ### ####"maxlength="50" size="50 ">
                          
          </form>
-  </div>
-  </div>
-      <br>  
-     <body>
-<nav>
-      <a href=" index.html">Previous page</a>
-      <a href=" educational.html">Second page</a>
-      <a href=" documents.html">Third page</a>
-   
-    </nav>
+   <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+ <!-- fieldsets -->
+  <fieldset>
+  <style>
+    body {
+<page size="A4" layout="landscape"></page>
+        height: 842px;
+        width: 595px;
+        /* to centre page on screen*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
 <body bgcolor="lightblue" >
-  </body>
-</html>
+<form action= "/url" method="GET"> 
+                        <label class="required">HSC Institution name</label>
 
+<span style="color:#ff0000">*</span> <br>
+
+                          <input type="text" name="name" placeholder="" maxlength=" 50" size=" 50">
+</form>
+                 
+     <form action= "/url" method="GET">                
+<label class="required">HSC Board (i.e CBSC, ICSC or State board)</label>
+
+
+<span style="color:#ff0000">*</span><br>
+                            
+                          <input type="text" name="name" placeholder="i.e 60.50%"maxlength=" 50" size=" 50">
+                         
+  </form>
+ <form action= "/url" method="GET">      
+                      <label class="required">Score in HSC in percentage</label>
+<span style="color:#ff0000">*</span><br>
+                      
+                          <input type="text" name="name" placeholder="i.e 60.50%"maxlength=" 50" size=" 50">
+ </form>
+                     
+     <form action= "/url" method="GET">      
+                        <label class="required">SSC Institution name</label>
+<span style="color:#ff0000">*</span><br>
+                    
+                          <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
+
+             </form>     
+  <form action= "/url" method="GET">      
+                        <label class="required"> SSC Board (i.e CBSC, ICSC or State board)</label>
+<span style="color:#ff0000">*</span><br>
+                   
+                          <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
+        </form>           
+  <form action= "/url" method="GET">      
+                        <label class="required"> Score in SSC in percentage</label>
+
+<span style="color:#ff0000">*</span><br>
+
+    
+                          <input type="text" name="name" placeholder="i.e 60.50%"maxlength=" 50" size=" 50">
+       </form>              
+  <form action= "/url" method="GET">      
+                        <label class="required"> Currently pursuing</label>
+<span style="color:#ff0000">*</span><br>
+                     
+                          <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
+
+        </form>             
+  <form action= "/url" method="GET">      
+                        <label class="required"> Current educational institution name</label>
+<span style="color:#ff0000">*</span><br>
                         
+                          <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
+         </form>       
+  <form action= "/url" method="GET">      
+                          <label class="required"> Overall percentage</label>
+ <span style="color:#ff0000">*</span><br>
+                        
+                          <input type="text" name="name" placeholder="i.e 60.50%"maxlength=" 50" size=" 50">
+
+     </form>           
+   <form action= "/url" method="GET">      
+    <label for=" required">Current backlogs if any</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+<option> 0</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </form>
+ <input type="button" name="previous" class="previous action-button" value="Previous" />
+   <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+ <!-- fieldsets -->
+  <fieldset>
+ <style>
+    body {
+<page size="A4" layout="landscape"></page>
+        height: 842px;
+        width: 595px;
+        /* to centre page on screen*/
+        margin-left: auto;
+        margin-right: auto;
+ 
+    }
+    </style>
+  <body bgcolor="lightblue" >
+
+ <div class="form-group">
+    <label for="exampleFormControlFile1"> Recent passport size photograph (image size less than 4MB)</label>
+<span style="color:#ff0000">*</span><br> 
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+     </div>
+
+<br>
+ <div class="form-group">
+    <label for="exampleFormControlFile1"> HSC mark sheet (image, PDF or docs size less than 4MB)</label>
+<span style="color:#ff0000">*</span><br>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+   </div>
+
+<br>
+ <div class="form-group">
+    <label for="exampleFormControlFile1">  SSC mark sheet (image, PDF or docs size less than 4MB)</label>
+<span style="color:#ff0000">*</span><br>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+    </div>
+
+<br>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">  All semesters mark sheet in a single PDF or docs (file size less than 10MB)</label>
+<span style="color:#ff0000">*</span><br>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+   </div>
+ <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+  </fieldset>
+  </body>
+</html>                        
