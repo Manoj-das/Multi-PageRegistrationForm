@@ -15,9 +15,9 @@
 }
  
     </style>
-<!-- fieldsets -->
+ <!-- fieldsets -->
   <fieldset>
- <style>
+  <style>
     body {
 <page size="A4" layout="landscape"></page>
         height: 842px;
@@ -25,40 +25,89 @@
         /* to centre page on screen*/
         margin-left: auto;
         margin-right: auto;
- 
     }
     </style>
-  <body bgcolor="lightblue" >
+<body bgcolor="lightblue" >
+<form action= "/url" method="GET"> 
+                        <label class="required">HSC Institution name</label>
 
- <div class="form-group">
-    <label for="exampleFormControlFile1"> Recent passport size photograph (image size less than 4MB)</label>
-<span style="color:#ff0000">*</span><br> 
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-     </div>
+<span style="color:#ff0000">*</span> <br>
 
-<br>
- <div class="form-group">
-    <label for="exampleFormControlFile1"> HSC mark sheet (image, PDF or docs size less than 4MB)</label>
+                          <input type="text" name="name" placeholder="" maxlength=" 50" size=" 50">
+</form>
+                 
+     <form action= "/url" method="GET">                
+<label class="required">HSC Board (i.e CBSC, ICSC or State board)</label>
+
+
 <span style="color:#ff0000">*</span><br>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-   </div>
-
-<br>
- <div class="form-group">
-    <label for="exampleFormControlFile1">  SSC mark sheet (image, PDF or docs size less than 4MB)</label>
+                            
+                          <input type="text" name="name" placeholder="i.e 60.50%"maxlength=" 50" size=" 50">
+                         
+  </form>
+ <form action= "/url" method="GET">      
+                      <label class="required">Score in HSC in percentage</label>
 <span style="color:#ff0000">*</span><br>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-    </div>
-
-<br>
-  <div class="form-group">
-    <label for="exampleFormControlFile1">  All semesters mark sheet in a single PDF or docs (file size less than 10MB)</label>
+                      
+                          <input type="text" name="name" placeholder="i.e 60.50%"maxlength=" 50" size=" 50">
+ </form>
+                     
+     <form action= "/url" method="GET">      
+                        <label class="required">SSC Institution name</label>
 <span style="color:#ff0000">*</span><br>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-   </div>
+                    
+                          <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
+
+             </form>     
+  <form action= "/url" method="GET">      
+                        <label class="required"> SSC Board (i.e CBSC, ICSC or State board)</label>
+<span style="color:#ff0000">*</span><br>
+                   
+                          <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
+        </form>           
+  <form action= "/url" method="GET">      
+                        <label class="required"> Score in SSC in percentage</label>
+
+<span style="color:#ff0000">*</span><br>
+
+    
+                          <input type="text" name="name" placeholder="i.e 60.50%"maxlength=" 50" size=" 50">
+       </form>              
+  <form action= "/url" method="GET">      
+                        <label class="required"> Currently pursuing</label>
+<span style="color:#ff0000">*</span><br>
+                     
+                          <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
+
+        </form>             
+  <form action= "/url" method="GET">      
+                        <label class="required"> Current educational institution name</label>
+<span style="color:#ff0000">*</span><br>
+                        
+                          <input type="text" name="name" placeholder=""maxlength=" 50" size=" 50">
+         </form>       
+  <form action= "/url" method="GET">      
+                          <label class="required"> Overall percentage</label>
+ <span style="color:#ff0000">*</span><br>
+                        
+                          <input type="text" name="name" placeholder="i.e 60.50%"maxlength=" 50" size=" 50">
+
+     </form>           
+   <form action= "/url" method="GET">      
+    <label for=" required">Current backlogs if any</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+<option> 0</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </form>
    <a href=" ./index.html">Previous</a> 
  <a href="./document.html">Next</a> 
     <input type="submit" name="submit" class="submit action-button" value="Submit" />
+  
   </fieldset>
   </body>
 </html>
