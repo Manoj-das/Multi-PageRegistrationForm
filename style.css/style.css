@@ -1,8 +1,4 @@
 
-.center {
-  text-align: center;
-  border: 3px solid green;
-}
  .A4 {
    background: white;
    width: 21cm;
@@ -18,6 +14,10 @@
 .page-break { display: block; page-break-before: always; }
 size: A4 portrait;
 } 
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
 
 @media print {
  .noprint {display:none;}
